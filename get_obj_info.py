@@ -98,8 +98,8 @@ class GetObjectInfo(QgsMapTool):
         if current_scale in self.zoom_levels.keys():
             return self.zoom_levels[current_scale]
         else:
-            iface.messageBar().pushMessage("Warning", "For accuracity you should use one of the standart scales."
-                                                      "Standart scales are in help.", level=QgsMessageBar.WARNING)
+            #iface.messageBar().pushMessage("Warning", "For accuracity you should use one of the standart scales."
+            #                                          "Standart scales are in help.", level=QgsMessageBar.WARNING)
             return self.choose_nearest_scale(current_scale, self.zoom_levels)
 
     def form_request(self):

@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Ukrainian Cadastral Map
+qgisMinimumVersion=2.0
+description=This plugin adds support Ukrainian Public Cadastral Map
+version=0.1
+author=Roman Rukavchuk
+email=gram@e-mail.ua
+
+about=This plugin adds support Ukrainian public cadastral map to QGIS, such as load WMS layers and get information about objects that these layers contain.
+
+tracker=https://github.com/gram001/UkrainianCadastralMap/issues
+repository=https://github.com/gram001/UkrainianCadastralMap
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=cadastre, wms, webservice
+
+homepage=https://github.com/gram001/UkrainianCadastralMap
+category=Web
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
